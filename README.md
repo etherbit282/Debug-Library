@@ -1,8 +1,15 @@
 # Debug Lib
 
 ## Explanation
-This was coded in C# and is intended to be used in C# project. This is only a basic debug library but I am going to add more soon!
+This was coded in C# and is intended to be used in C# projects. This is only a basic debug library but I am going to add more soon!
 
+## How to Add to Your Project
+
+1. Copy the `DebugLib.cs` file (or the entire `DebugLibrary` folder) into your project directory.
+
+2. Add the following line at the top of your C# files where you want to use the library:
+```csharp
+using DebugLibrary;
 ## Usage
 
 1. Call `DebugLib.EnableConsole()` once at the start of your program to open a console window.

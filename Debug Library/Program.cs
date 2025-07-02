@@ -56,7 +56,11 @@ namespace DebugLibrary
                     break;
             }
 
-            Console.WriteLine($"[{level}] {message}");
+            string fullMessage = $"[{level}] {message}";
+
+            Console.WriteLine(fullMessage);
+
+            FileHandler.LogToFile(fullMessage); // write to file if enabled
 
             Console.ForegroundColor = originalColor;
         }

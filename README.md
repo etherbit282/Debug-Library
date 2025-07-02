@@ -25,6 +25,6 @@ class Program
         DebugLib.Log("This is an error!", DebugLib.LogLevel.Error);     // Error (red)
     }
 }
-
+```
 # Update
 Finishing file logging
